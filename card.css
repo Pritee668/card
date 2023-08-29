@@ -1,0 +1,23 @@
+.card{
+    margin: 20px;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    background-color: greenyellow;
+    box-shadow: 3px 3px 6px gray;
+    border-radius: 10px;
+}
+
+.image{
+    background-image: url("https://th.bing.com/th/id/OIP.yj9z1XdEgLFhHfpv-Ens9wAAAA?pid=ImgDet&w=365&h=357&rs=1");
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    position: center;
+}
+.card:hover{
+    box-shadow: 6px 6px 12px gray;
+}
+.desc{
+    padding-left: 25px;
+}
